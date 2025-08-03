@@ -1,0 +1,12 @@
+{
+  "name": "Job Tracker Dev Container",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "backend",
+  "workspaceFolder": "/app",
+  "extensions": [
+    "ms-python.python"
+  ],
+  "settings": {
+    "python.pythonPath": "/usr/local/bin/python"
+  }
+}
